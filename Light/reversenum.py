@@ -2,6 +2,7 @@ def reverse_num(num):
               reverse = 0
               while(num>0):
                       last_digit = num%10
+                      print('last digit : ', last_digit)
                       reverse = reverse*10 + last_digit
                       num = num//10
               return reverse
